@@ -1,0 +1,69 @@
+.nav {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    border-top: 1px solid #3bb77e;
+    border-bottom: 1px solid #3bb77e;
+}
+
+.nav .cat-tab {
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}
+.nav nav ul li {
+    position: relative;
+}
+.nav nav ul li button {
+    text-transform: capitalize !important;
+}
+.nav nav ul li button a {
+    color: rgba(0, 0, 0, 0.7) !important;
+    text-decoration: none;
+    font-size: 14px !important;
+}
+.nav .part3 .phNo{
+    margin-left: auto;
+}
+
+.nav .part3 .phNo svg{
+    font-size: 40px !important;
+    opacity: 0.7;
+    margin-right: 8px;
+}
+.nav .part3 .phNo h3{
+    font-size: 30px !important;
+    line-height: 25px;
+}
+.nav .part3 .phNo p{
+    font-size: 14px !important;
+    opacity: 0.7;
+}
+
+.nav nav .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 250px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 3px 6px rgb(0,0,0,0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 10px 0px;
+    z-index: 1;
+}
+.nav nav .dropdown-menu li {
+    color: black !important;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    margin: 0px !important;
+}
+.nav nav .dropdown-menu li button {
+    width: 100%;
+    /* text-align: left !important; */
+    justify-content: flex-start;
+    color: rgb(0,0,0,0.7);
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 10px 15px ;
+}
